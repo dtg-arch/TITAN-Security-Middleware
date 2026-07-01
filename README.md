@@ -1,22 +1,36 @@
-# TITAN Security Middleware
+# TITAN Security Middleware - SBI-REC
 
-**Middleware de sécurité avancé pour vos applications.**
+**Middleware de sécurité IA déterministe et air-gapped pour environnements critiques.**
 
-## 🎯 Essayer gratuitement
+[![License: BSL 1.1](https://img.shields.io/badge/License-BSL_1.1-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org)
 
-1. Allez sur **[lascribeforge.fr/chat.html](https://lascribeforge.fr/chat.html)**
-2. Utilisez une des **clés de démo** ci-dessous
+## 🎯 À propos
 
-## Clés de démo TITAN V4.8
+TITAN est un middleware de sécurité avancé qui apporte **déterminisme, fiabilité et souveraineté** aux applications IA. 
 
-→ **[demo/demo_keys.txt](demo/demo_keys.txt)** (25 clés temporaires)
+Il élimine les hallucinations et les comportements non-prévisibles des modèles classiques tout en restant compatible avec les environnements **air-gapped** (sans connexion internet).
 
-**Pour une version complète, support ou intégration personnalisée :** contactez-nous via le site.
+**Idéal pour** : Défense, cyber-sécurité, renseignement, journalisme sensible, infrastructures critiques et intégrations souveraines (SpaceX / Starlink-like).
 
-## Structure du projet
+## ✨ Fonctionnalités principales
 
-- `demo/` → Scripts et clés de test
+- Architecture **déterministe** et reproductible
+- Fonctionnement **air-gapped** complet
+- RAG avancé avec contrôle strict des sources
+- Protection contre les injections et les dérives
+- Intégration simple via API ou middleware Python
+- Licence BSL 1.1 (source disponible avec restrictions commerciales)
 
----
+## 🚀 Essayer rapidement
 
-*Made with TITAN*
+1. Allez sur la [démo en ligne](https://lascribeforge.fr)
+2. Utilisez une clé de démonstration (demander par mail ) 
+
+### Installation locale
+
+```bash
+git clone https://github.com/dtg-arch/TITAN-Security-Middleware.git
+cd TITAN-Security-Middleware
+pip install -r requirements.txt
+python script_client_demo.py
